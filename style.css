@@ -1,3 +1,39 @@
+
+
+.student-profile .card {
+  border-radius: 10px;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.student-profile .card .card-header .profile_img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px auto;
+  background-color: #1e1e1e;
+  border: 4px solid #cccccc00;
+  border-radius: 50%;
+}
+
+.student-profile .card h3 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+}
+
+.student-profile .card p {
+  font-size: 16px;
+  color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: #000;
+}
+
 /* -- */
 @keyframes blink {
   from, 25%, to {
@@ -695,6 +731,7 @@ body input, body h1, body h3, body a, body span {
   margin: auto;
   max-width: 1600px;
   position: relative;
+  top:-200px;
 }
 #app #app-menu #app-menu-content-wrapper #app-menu-content #app-menu-content-header {
   display: flex;
