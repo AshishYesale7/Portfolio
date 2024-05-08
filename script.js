@@ -122,7 +122,7 @@
             if (props.value) {
                 const timeout = setTimeout(() => {
                     setHiddenTo(true);
-                }, 500);
+                }, 5000000);
                 return () => {
                     setHiddenTo(false);
                     clearTimeout(timeout);
